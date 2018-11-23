@@ -54,7 +54,7 @@ Originally I was going to write this script using PHP that does the following
 - Save each pair as an `index` of an array and the `value` of the array would be its # of occurance
 - Finally Save the result to the output file while occurance >= 50
 
-But then using that method has a complexity of O(n^3) due to 3 nested-loops (1st-reading from input, 2nd & 3rd is generating the pair)
+But then using that method has a big O complexity of O(n^3) due to 3 nested-loops (1st-reading from input, 2nd & 3rd is generating the pair)
 
 So I though this would be a better time to explore python and read more about it, because python is very good for performing complex computation as its widely use in Machine Learning
 
@@ -65,6 +65,8 @@ My research led me to 2 things
 -- Which is the best data structure to store exactly this specific type of data because I wanted a data structure type that allows me to 
 --- (1) Store both the pair and # of occurance as 1 array
 --- (2) Have O(1) constant time for searching
+
+In this scenario the big O complexity is O(n^2) due to 2 nested-loops because now it only cost 1 loop to generate the pair instead of 2 from the php case.
 
 
 ## Screenshots
