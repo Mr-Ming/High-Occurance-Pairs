@@ -1,5 +1,8 @@
 import unittest
 
+# Re-configure the path for where the classes/permutation is, otherwise import will fail
+import sys
+sys.path.append('')
 
 from classes.permutation import Permutation
 

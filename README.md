@@ -13,12 +13,12 @@ The application can be modified:
 ## To Run The Program
 1. Follow the setup instruction to install `python` and cloning the repo
 2. cd into the root of the program directory `cd High-Occurance-Pairs`
-3. run `find_high_occurance_pairs`
+3. run `python find_high_occurance_pairs.py`
 
-## To Run The Unit Test (IMPORTANT! TEST NEED TO BE RUN FROM ROOT)
+## To Run The Unit Test (IMPORTANT! TEST NEED TO BE RUN FROM ROOT DUE)
 1. Follow the setup instruction to install python and cloning the repo
 2. cd into the root of the program directory `cd High-Occurance-Pairs`
-3. run `python password_validator_test.py`
+3. run `python test/classes/permutation_test.py`
 
 .............
 ----------------------------------------------------------------------
